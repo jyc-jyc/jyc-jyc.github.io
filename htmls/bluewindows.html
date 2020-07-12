@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>你的电脑遇到滑稽</title>
+        <link rel="stylesheet" type="text/css" href="./css/win.css">
+        <script>
+            var num = 0;
+	        var t = setInterval(
+                function(){
+		            num++;
+		            var num1 = document.getElementById("num1");
+		            num1.innerText = num+'%';
+			        if(num==100){
+			            clearInterval(t);
+			        }
+	            }
+            ,100);
+        </script>
+    </head>
+    <body class="body">
+        <div class="bodybox">
+            <img src="./img/img1.png" style="width: 140px;height: 140px;">
+            <p class="bodybox-title">你的电脑遇到滑稽，需要删除系统。</p>
+            <p class="bodybox-title">我们只收集某些错误信息，然后你可以删除系统。</p>
+            <p class="bodybox-num" id="num1"></p>
+            <img class="box" style="width: 110px; height: 110px; top: 390px;" src="./img/img2.png">
+            <div class="box" style="width: 900px; height: 110px; top: 370px; left:130px;">
+                <p class="bodybox-bigtext">有关此滑稽的的详细信息和解决方法，请访问:https://xnorth.itqcxy.cn/</p>
+                <p class="bodybox-text" style="top: 70px;">如果致电客服人员，向他们提供以下信息:</p>
+                <p class="bodybox-text" style="top: 90px;">滑稽代码：CHM_HJIAE-0912XJH</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+.body{
+    background: rgba(3,126,255);
+}
+.bodybox{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 80%;
+    top: 10%;
+}
+.bodybox-title{
+    font-size: 35px;
+    color: white;
+}
+.bodybox-num{
+    position: absolute;
+    top: 310px;
+    color: white;
+    font-size: 25px;
+}
+.box{
+    position: absolute;
+}
+.bodybox-bigtext{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+}
+.bodybox-text{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
